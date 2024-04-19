@@ -3,6 +3,6 @@ public class Main {
         int a = 3;
         a = 6;
 
-        System.out.print(a);
+        System.out.println(a);
     }
 }
