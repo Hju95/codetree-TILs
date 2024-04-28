@@ -4,9 +4,9 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double a, b;
-        String c;
+        char c;
 
-        c = sc.next();
+        c = sc.next().charAt(0);
         a = sc.nextDouble();
         b = sc.nextDouble();
 
