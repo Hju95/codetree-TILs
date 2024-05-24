@@ -6,9 +6,9 @@ public class Main {
 
         double a = sc.nextDouble();
 
-        if (a >= 1.3) {
+        if (a >= 1.0) {
             System.out.println("High");
-        } else if (a >= 0.5 && a < 1.3) {
+        } else if (a >= 0.5) {
             System.out.println("Middle");
         } else {
             System.out.println("Low");
