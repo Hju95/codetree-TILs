@@ -4,20 +4,19 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        String a = sc.next();
+        char a = sc.next().charAt(0);
 
-        if (a.equals("S")) {
+        if(a == 'S')
             System.out.println("Superior");
-        } else if (a.equals("A")) {
+        else if(a == 'A')
             System.out.println("Excellent");
-        } else if (a.equals("B")) {
+        else if(a == 'B')
             System.out.println("Good");
-        } else if (a.equals("C")) {
+        else if(a == 'C')
             System.out.println("Usually");
-        } else if (a.equals("D")) {
+        else if(a == 'D')
             System.out.println("Effort");
-        } else {
+        else
             System.out.println("Failure");
-        }
     }
 }
