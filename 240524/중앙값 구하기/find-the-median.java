@@ -13,6 +13,12 @@ public class Main {
         if (a > b) {
             if (a < c) {
                 System.out.println(a);
+            } else {
+                if (b < c) {
+                    System.out.println(c);
+                } else {
+                    System.out.println(b);
+                }
             }
         } else {
             if (b < c) {
