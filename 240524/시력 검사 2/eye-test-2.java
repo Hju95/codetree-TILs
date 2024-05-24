@@ -8,7 +8,7 @@ public class Main {
 
         if (a >= 1.3) {
             System.out.println("High");
-        } else if (a >= 0.5) {
+        } else if (a >= 0.5 && a < 1.3) {
             System.out.println("Middle");
         } else {
             System.out.println("Low");
