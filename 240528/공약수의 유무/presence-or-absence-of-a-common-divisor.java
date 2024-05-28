@@ -3,24 +3,21 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
-        int a, b, num, t = 0;
+        
+	    int a, b;
         a = sc.nextInt();
         b = sc.nextInt();
-        num = a;
+        boolean satisfied = false;
 
-        while (true) {
-            if (t == 1 || num == b) {
-                System.out.print(t);
-                break;
-            }
-
-            if (1920 % num == 0 && 2880 % num == 0) {
-                t = 1;
-            }
-
-            num ++;
-
+        for(int i = a; i <= b; i++) {
+            if(1920 % i == 0 && 2880 % i == 0)
+                satisfied = true;
         }
+
+        //출력
+        if(satisfied == true)
+            System.out.println("1");
+        else
+            System.out.println("0");
     }
 }
